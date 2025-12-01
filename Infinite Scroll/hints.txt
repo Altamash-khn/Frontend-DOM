@@ -1,0 +1,5 @@
+1. The URL class along with its .searchParams.set method can be helpful to easily create a properly formatted API URL.
+2. The scrollHeight, scrollTop and clientHeight properties might be helpful to determine if you are scrolled to the bottom of the container.
+3. scrollHeight is the entire height of an element, including what is not visible due to scrolling. scrollTop gets the number of pixels that have been scrolled down, and clientHeight gets the inner height of the element. These can be combined to determine if the user is scrolled to the bottom of the container by checking if scrollHeight - scrollTop - clientHeight <= 0.
+4. After each request, make sure to save the last returned ID to use as the after parameter in future requests.
+

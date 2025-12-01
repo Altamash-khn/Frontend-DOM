@@ -1,0 +1,5 @@
+1. Text inputs have a value property that holds the current content of the input. Moreover, an input can be cleared by setting the value back to ''.
+2. To delete todos, you'll need to add an event listener for the click event of each delete button. However, you don't want to just delete the button; you need to also delete its parent container.
+3. To delete an element's parent, you can use element.parentNode.remove(), calling the remove method on the parent node of the element.
+4. In an event listener callback, such as the one needed for the delete button click event, you can reference the element using the this keyword (assuming you don't use an arrow function).
+

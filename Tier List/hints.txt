@@ -1,0 +1,14 @@
+Hint 1
+There are a variety of events associated with drag and drop. These ones might be useful for solving this problem: dragstart, dragover, and drop.
+
+Hint 2
+The default behavior of the dragover event is to not allow elements to be dropped. Can you change this default behavior with JavaScript?
+
+Hint 3
+The default behavior of an event can be negated in an event listener callback by using the event.preventDefault() function.
+
+Hint 4
+Drag events have a dataTransfer property that can be useful for sharing information between the event listeners for a single drag and drop operation. For example, event.dataTransfer.setData('text/plain', 'hello') would save the hello string. Another event listener involved in the same drag and drop operation could then read that string with event.dataTransfer.getData('text/plain').
+
+Hint 5
+The dblclick event can be used to listen to double clicks. This works just like click but requires two mouse clicks.

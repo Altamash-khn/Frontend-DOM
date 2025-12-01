@@ -1,0 +1,7 @@
+1. It can be helpful to keep track of the current board state to always know which squares belong to which player.
+2. You'll need to add event listeners to all of the different buttons to perform the required actions when they are clicked.
+3. To hide and show the restart button, you can change its style.display property with JavaScript. A display value of none hides an element, and block would show the element again.
+4. A tie game occurs when the total number of moves is equal to the total number of squares. For this reason, it can be helpful to keep track of the number of moves taken.
+5. To determine a winner, check after each move if the current player has achieved a 3-in-a-row winning combination. There are a few ways to determine this, but we recommend one of these approaches:
+      Look at each row, column and long diagonal. For each of these, check if all of the values belong to the current player.
+      Keep a constant array of possible winning combinations. Compare the board to those possible combinations to see if the current player achieved one of them.

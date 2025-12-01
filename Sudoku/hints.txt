@@ -1,0 +1,3 @@
+1. The checked JavaScript property of inputs can be used to determine if a checkbox is currently checked or not.
+2. A string can be split into an array of characters using str.split(''), and that array can be converted back into a string using arr.join(''). This can be useful for preventing duplicate candidate moves.
+

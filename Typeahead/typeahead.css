@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+}
+
+#wrapper {
+  width: 400px;
+  margin: 24px auto;
+}
+
+#typeahead {
+  width: 100%;
+  padding: 10px;
+  border-radius: 8px;
+  border: 2px solid #828080;
+  font-size: 18px;
+  outline: none;
+}
+
+#suggestions-list {
+  width: 100%;
+  padding: 0;
+  border-radius: 8px;
+  margin-top: 8px;
+  box-shadow: 0 5px 10px #4a494933;
+  list-style-type: none;
+  max-height: 200px;
+  overflow: auto;
+}

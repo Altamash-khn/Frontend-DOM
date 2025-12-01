@@ -1,0 +1,8 @@
+Hint 1
+While most inputs use the value property to check the current value, checkboxes use the checked property.
+
+Hint 2
+The easiest way to find the selected radio button is by doing a query selector with the attribute selector and the :checked pseudo-class such as document.querySelector('input[name="type"]:checked').
+
+Hint 3
+There are a variety of ways to clear the children of a container, but the simplest is to set the innerHTML property to an empty string.

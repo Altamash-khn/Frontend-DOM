@@ -1,0 +1,7 @@
+1. There are two possible solutions to this problem, one using requestAnimationFrame, and one using setInterval.
+2. An element can be disabled or enabled by changing the disabled property or using the setAttribute method.
+3. There are two ways to keep track of how many milliseconds have elapsed. Date.now() will return the number of milliseconds since January 1st, 1970. Alternatively, performance.now() will return the number of milliseconds since the time origin of the page, but with much deeper precision beyond milliseconds. Either are fine for this problem, but we recommend Date.now() as the problem does not need the extra precision.
+4. Both requestAnimationFrame and setInterval return IDs that can be useful for stopping the timer.
+5. Animation frames can be cancelled with cancelAnimationFrame(id), and intervals can be cancelled using clearInterval(id).
+6. The remainder operator % along with Math.floor can be useful for converting elapsed time from milliseconds into the proper format.
+

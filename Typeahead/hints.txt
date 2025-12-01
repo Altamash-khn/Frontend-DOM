@@ -1,0 +1,4 @@
+1. There are a few different events you can listen to on the text input, but the input event is usually the best option for typeaheads. This will fire every time the user types into the input.
+2. setTimeout can be used to delay execution of a function. For example, setTimeout(callback, 1000) would call the callback after one second.
+3. setTimeout returns an ID that can be passed to the clearTimeout function to stop the callback from running. This can be combined with another call to setTimeout to reset a timeout. Can you use this to check if 500ms have passed since the last time the user typed into the input?
+4. While there are a lot of ways to remove elements from the DOM, the easiest way to remove all of an element's children is to simply set the innerHTML property to ''.
