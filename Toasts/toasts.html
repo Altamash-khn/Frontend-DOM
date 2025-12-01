@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="inputs">
+      <textarea
+        id="message-content"
+        placeholder="Message content..."
+      ></textarea>
+
+      <div class="input">
+        <label for="duration">Duration</label>
+        <input type="number" id="duration" min="500" value="3000" />
+      </div>
+
+      <div class="input">
+        <label for="cancelable">Is Cancelable</label>
+        <input type="checkbox" id="cancelable" />
+      </div>
+
+      <div class="input">
+        <label for="success">Success</label>
+        <input type="radio" name="type" id="success" value="success" checked />
+
+        <label for="error">Error</label>
+        <input type="radio" name="type" id="error" value="success" />
+      </div>
+
+      <button id="add-toast">Add Toast</button>
+      <button id="clear-button">Clear Toasts</button>
+    </div>
+
+    <div id="toasts"></div>
+  </body>
+</html>
